@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(6, 172, 163);
+}
+#container {
+  background-color: rgba(4, 122, 93, 0.808);
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+div {
+  border: 1px solid black;
+}
+img {
+  max-width: 300px;
+  width: 50%;
+}
+.doboz{
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgba(6, 116, 92, 0.712);
+  }
+  #container {
+    max-width: 100%;
+    width: 100%;
+    font-size: 10vw;
+    max-width: 800px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+div {
+  border: 1px solid gray;
+}
+img {
+  max-width: 300px;
+  width: 50%;
+}
+
+@media screen and (max-width: 300px) {
+  #container {
+    background-color: azure;
+    color: rgb(245, 179, 199);
+    font-size: 10vw;
+    grid-template-columns: 1fr;
+  }
+}
